@@ -30,6 +30,27 @@ A Java-based application for validating JSON files against JSON schemas. This pr
    ```bash
    java -jar target/json-schema-validator-1.0.jar
    ```
+4. Packaging:
+
+   This application has been packaged using jpackage, a tool provided by the JDK for creating native installers and
+   application bundles. The packaging process includes the runtime image to ensure the application runs with Java 21
+   without requiring a separate JDK installation.
+
+   Packaging Command:
+   ```bash
+   jpackage --input target --main-jar json-schema-validator-1.0.jar --main-class org.json.json_schema_validator.JsonValidatorApplication --name JsonValidator --type app-image  
+   ```
+
+5. Executables:
+
+   This repository includes a Windows executable packaged with jpackage for ease of use. The executable allows
+   running the application without requiring a separate Java installation, as it includes the necessary runtime.
+
+   Notes:
+
+   The Windows executable is located in the json-schema-validator\JsonValidator\JsonValidator.exe.
+   For other platforms, or if you prefer, you can still run the application directly from the command line using the .jar file.
+
 ## Usage
 #### GUI Mode
 Launch the application.

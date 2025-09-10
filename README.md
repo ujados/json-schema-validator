@@ -48,8 +48,8 @@ A Java-based application for validating JSON files against JSON schemas. This pr
 
    Notes:
 
-   The Windows executable is located in the json-schema-validator\JsonValidator\JsonValidator.exe.
-   For other platforms, or if you prefer, you can still run the application directly from the command line using the .jar file.
+   The Windows executable is located in the json-schema-validator\JsonValidator\JsonValidator.zip. JsonValidator.exe.
+   For other platforms, or if you prefer, you can still run the application directly.
 
 ## Usage
 #### GUI Mode
